@@ -1,0 +1,12 @@
+name: rain_consumer_check
+publish_to: none
+environment:
+  sdk: ^3.13.2
+dependencies:
+  flutter:
+    sdk: flutter
+  ios_rain_effect:
+    path: ../..
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

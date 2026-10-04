@@ -2,7 +2,48 @@
 
 A practical implementation guide based on analysis of **iOS 26.5, build 23F77, WeatherUI 1318**, its rain scene, and the VFX particle pipeline. It explains the configuration, simulation, wind, lighting, projection, and streak rendering needed to reproduce the recovered regular-rain behavior.
 
-This repository contains documentation and numeric reference data. It contains no test application, APK, Apple framework binaries, extracted textures, or disassembly dumps. Supply your own rain artwork. Static source evidence establishes the behavior described here; identical live iOS pixels, random sequences, and performance have not been demonstrated.
+This repository contains a reusable Flutter rain library, its two rain atlases, focused host tests, documentation, and numeric reference data. It contains no application launcher, APK, Apple framework binaries, or disassembly dumps. See [artwork provenance](assets/README.md). Static source evidence establishes the behavior described here; identical live iOS pixels, random sequences, and performance have not been demonstrated.
+
+## Use the implementation
+
+Add the package to your Flutter application's `pubspec.yaml` (Dart 3.13.2 / Flutter 3.47.2 or newer):
+
+```yaml
+dependencies:
+  ios_rain_effect:
+    git:
+      url: https://github.com/IvanChanPing/ios-rain-implementation-guide.git
+      ref: main
+```
+
+Import the public library and place the layer in a bounded area, such as a full-screen `Stack`:
+
+```dart
+import 'package:ios_rain_effect/ios_rain_effect.dart';
+
+const rain = RainWeatherLayer(
+  active: true,
+  configuration: IosRainConfiguration(
+    windSpeedMetersPerSecond: 4.4704, // 10 mph
+    elevationDegrees: 33,
+    isPM: false,
+  ),
+);
+```
+
+The package declares and loads its own assets. Your application supplies wind speed, solar elevation, and solar AM/PM; no weather request, location permission, dashboard, or app-specific weather model is included. The configuration's `reference` value is an explicit zero-wind preview input, not live weather. The shipped renderer implements compact regular rain; other layouts remain reference data. Noise and sway remain disabled as in that preset.
+
+| Files | Responsibility |
+|---|---|
+| `lib/ios_rain_effect.dart` | Public import |
+| `lib/src/ios_background_vfx.dart` | Widget lifecycle, two emitters, random sampling, integration, projection and painting |
+| `lib/src/ios_rain_configuration.dart` | Wind conversion and full compact solar-lighting interpolation |
+| `assets/background/*.png` | Foreground/background four-frame rain atlases |
+| `test/ios_rain_runtime_test.dart` | Numeric, geometry, alpha, configuration and pause tests |
+| `test/fixtures/ios_rain_compact_reference.json` | Independent recovered parameter and lighting fixture |
+| `tool/consumer_check/` | Host test that imports this package and decodes its bundled assets as a dependency |
+
+Run `flutter pub get`, `flutter analyze`, and `flutter test test/ios_rain_runtime_test.dart`. To check dependency packaging, run `flutter pub get` and `flutter test` from `tool/consumer_check`. Neither route builds an APK. For reproducible app dependencies, pin a reviewed commit instead of the moving `main` reference.
 
 ## Start here
 
