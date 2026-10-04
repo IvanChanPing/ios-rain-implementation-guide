@@ -1,0 +1,1458 @@
+{
+  "source": "Apple iOS 26.5 23F77 WeatherUI 1318.0.0.0.0",
+  "scope": "Regular rain configuration and lighting; source-derived, not a live-device observation",
+  "presets": [
+    {
+      "layout": "compact",
+      "enum": 0,
+      "constructor": "0x1bef143d4",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1bef14618",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1bef14618",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1bef14618",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1bef1462c",
+          "origin": "0x1bf2a0a08"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1bef14640",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1bef14640",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterWidth": {
+          "value": 30,
+          "ip": "0x1bef14640",
+          "origin": "0x1bf2ad820"
+        },
+        "life": {
+          "value": 2.5,
+          "ip": "0x1bef14640",
+          "origin": "0x1bf2ad820"
+        },
+        "fgVelocity": {
+          "value": 120,
+          "ip": "0x1bef14640",
+          "origin": "0x1bf2ad820"
+        },
+        "fgRate": {
+          "value": 320,
+          "ip": "0x1bef14640",
+          "origin": "0x1bf2ad820"
+        },
+        "fgSizeMin": {
+          "value": 0.23000000417232513,
+          "ip": "0x1bef1464c",
+          "origin": "0x1bf2a6f00"
+        },
+        "fgSizeMax": {
+          "value": 0.30000001192092896,
+          "ip": "0x1bef1464c",
+          "origin": "0x1bf2a6f00"
+        },
+        "fgSpread": {
+          "value": 1.25,
+          "ip": "0x1bef1466c",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bef1466c",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bef1466c",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgVelocity": {
+          "value": 60,
+          "ip": "0x1bef1466c",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgRate": {
+          "value": 3000,
+          "ip": "0x1bef14678",
+          "origin": "0x1bef14674"
+        },
+        "bgSizeMin": {
+          "value": 0.12999999523162842,
+          "ip": "0x1bef14684",
+          "origin": "0x1bf2a6f08"
+        },
+        "bgSizeMax": {
+          "value": 0.17999999225139618,
+          "ip": "0x1bef14684",
+          "origin": "0x1bf2a6f08"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1bef146a4",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bef146a4",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bef146a4",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1bef14aa0",
+          "origin": "0x1bf2a2b30"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1bef14aac",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    },
+    {
+      "layout": "portraitRegular",
+      "enum": 1,
+      "constructor": "0x1bf259af4",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1bf259d38",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1bf259d38",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1bf259d38",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1bf259d4c",
+          "origin": "0x1bf2a0a08"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1bf259d60",
+          "origin": "0x1bf2a38b0"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1bf259d60",
+          "origin": "0x1bf2a38b0"
+        },
+        "emitterWidth": {
+          "value": 30,
+          "ip": "0x1bf259d60",
+          "origin": "0x1bf2ad820"
+        },
+        "life": {
+          "value": 2.5,
+          "ip": "0x1bf259d60",
+          "origin": "0x1bf2ad820"
+        },
+        "fgVelocity": {
+          "value": 120,
+          "ip": "0x1bf259d60",
+          "origin": "0x1bf2ad820"
+        },
+        "fgRate": {
+          "value": 320,
+          "ip": "0x1bf259d60",
+          "origin": "0x1bf2ad820"
+        },
+        "fgSizeMin": {
+          "value": 0.2199999988079071,
+          "ip": "0x1bf259d6c",
+          "origin": "0x1bf2d5430"
+        },
+        "fgSizeMax": {
+          "value": 0.2800000011920929,
+          "ip": "0x1bf259d6c",
+          "origin": "0x1bf2d5430"
+        },
+        "fgSpread": {
+          "value": 1.25,
+          "ip": "0x1bf259d8c",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf259d8c",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf259d8c",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgVelocity": {
+          "value": 60,
+          "ip": "0x1bf259d8c",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgRate": {
+          "value": 3000,
+          "ip": "0x1bf259d98",
+          "origin": "0x1bf259d94"
+        },
+        "bgSizeMin": {
+          "value": 0.10000000149011612,
+          "ip": "0x1bf259da4",
+          "origin": "0x1bf2b2c68"
+        },
+        "bgSizeMax": {
+          "value": 0.17000000178813934,
+          "ip": "0x1bf259da4",
+          "origin": "0x1bf2b2c68"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1bf259dc4",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf259dc4",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf259dc4",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1bf25a1c0",
+          "origin": "0x1bf2a2b30"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1bf25a1cc",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    },
+    {
+      "layout": "landscapeRegular",
+      "enum": 2,
+      "constructor": "0x1bf15bbcc",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1bf15be14",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1bf15be14",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1bf15be14",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1bf15be28",
+          "origin": "0x1bf2a0a08"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1bf15be3c",
+          "origin": "0x1bf2a2fd0"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1bf15be3c",
+          "origin": "0x1bf2a2fd0"
+        },
+        "emitterWidth": {
+          "value": 30,
+          "ip": "0x1bf15be3c",
+          "origin": "0x1bf2ad820"
+        },
+        "life": {
+          "value": 2.5,
+          "ip": "0x1bf15be3c",
+          "origin": "0x1bf2ad820"
+        },
+        "fgVelocity": {
+          "value": 120,
+          "ip": "0x1bf15be3c",
+          "origin": "0x1bf2ad820"
+        },
+        "fgRate": {
+          "value": 320,
+          "ip": "0x1bf15be3c",
+          "origin": "0x1bf2ad820"
+        },
+        "fgSizeMin": {
+          "value": 0.17000000178813934,
+          "ip": "0x1bf15be48",
+          "origin": "0x1bf2bb530"
+        },
+        "fgSizeMax": {
+          "value": 0.2199999988079071,
+          "ip": "0x1bf15be48",
+          "origin": "0x1bf2bb530"
+        },
+        "fgSpread": {
+          "value": 1.25,
+          "ip": "0x1bf15be68",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf15be68",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf15be68",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgVelocity": {
+          "value": 60,
+          "ip": "0x1bf15be68",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgRate": {
+          "value": 3000,
+          "ip": "0x1bf15be74",
+          "origin": "0x1bf15be70"
+        },
+        "bgSizeMin": {
+          "value": 0.10400000214576721,
+          "ip": "0x1bf15be80",
+          "origin": "0x1bf2c5d58"
+        },
+        "bgSizeMax": {
+          "value": 0.14399999380111694,
+          "ip": "0x1bf15be80",
+          "origin": "0x1bf2c5d58"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1bf15bea0",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf15bea0",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf15bea0",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1bf15c298",
+          "origin": "0x1bf2a2b30"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1bf15c2a4",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    },
+    {
+      "layout": "ultrawide",
+      "enum": 3,
+      "constructor": "0x1bf019800",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1bf019a44",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1bf019a44",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1bf019a44",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1bf019a58",
+          "origin": "0x1bf2a0a08"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1bf019a6c",
+          "origin": "0x1bf2a2fd0"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1bf019a6c",
+          "origin": "0x1bf2a2fd0"
+        },
+        "emitterWidth": {
+          "value": 30,
+          "ip": "0x1bf019a6c",
+          "origin": "0x1bf2ad820"
+        },
+        "life": {
+          "value": 2.5,
+          "ip": "0x1bf019a6c",
+          "origin": "0x1bf2ad820"
+        },
+        "fgVelocity": {
+          "value": 120,
+          "ip": "0x1bf019a6c",
+          "origin": "0x1bf2ad820"
+        },
+        "fgRate": {
+          "value": 320,
+          "ip": "0x1bf019a6c",
+          "origin": "0x1bf2ad820"
+        },
+        "fgSizeMin": {
+          "value": 0.15000000596046448,
+          "ip": "0x1bf019a78",
+          "origin": "0x1bf2a3820"
+        },
+        "fgSizeMax": {
+          "value": 0.20000000298023224,
+          "ip": "0x1bf019a78",
+          "origin": "0x1bf2a3820"
+        },
+        "fgSpread": {
+          "value": 1.25,
+          "ip": "0x1bf019a98",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf019a98",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf019a98",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgVelocity": {
+          "value": 60,
+          "ip": "0x1bf019a98",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgRate": {
+          "value": 3000,
+          "ip": "0x1bf019aa4",
+          "origin": "0x1bf019aa0"
+        },
+        "bgSizeMin": {
+          "value": 0.09399999678134918,
+          "ip": "0x1bf019ab0",
+          "origin": "0x1bf2ba130"
+        },
+        "bgSizeMax": {
+          "value": 0.1340000033378601,
+          "ip": "0x1bf019ab0",
+          "origin": "0x1bf2ba130"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1bf019ad0",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf019ad0",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf019ad0",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1bf019ecc",
+          "origin": "0x1bf2a2b30"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1bf019ed8",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    },
+    {
+      "layout": "poster",
+      "enum": 4,
+      "constructor": "0x1bef3d5a8",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1bef3d7ec",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1bef3d7ec",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1bef3d7ec",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1bef3d800",
+          "origin": "0x1bf2a0a08"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1bef3d814",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1bef3d814",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterWidth": {
+          "value": 30,
+          "ip": "0x1bef3d814",
+          "origin": "0x1bf2ad820"
+        },
+        "life": {
+          "value": 2.5,
+          "ip": "0x1bef3d814",
+          "origin": "0x1bf2ad820"
+        },
+        "fgVelocity": {
+          "value": 120,
+          "ip": "0x1bef3d814",
+          "origin": "0x1bf2ad820"
+        },
+        "fgRate": {
+          "value": 320,
+          "ip": "0x1bef3d814",
+          "origin": "0x1bf2ad820"
+        },
+        "fgSizeMin": {
+          "value": 0.23000000417232513,
+          "ip": "0x1bef3d820",
+          "origin": "0x1bf2a6f00"
+        },
+        "fgSizeMax": {
+          "value": 0.30000001192092896,
+          "ip": "0x1bef3d820",
+          "origin": "0x1bf2a6f00"
+        },
+        "fgSpread": {
+          "value": 1.25,
+          "ip": "0x1bef3d840",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bef3d840",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bef3d840",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgVelocity": {
+          "value": 60,
+          "ip": "0x1bef3d840",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgRate": {
+          "value": 3000,
+          "ip": "0x1bef3d84c",
+          "origin": "0x1bef3d848"
+        },
+        "bgSizeMin": {
+          "value": 0.12999999523162842,
+          "ip": "0x1bef3d858",
+          "origin": "0x1bf2a6f08"
+        },
+        "bgSizeMax": {
+          "value": 0.17999999225139618,
+          "ip": "0x1bef3d858",
+          "origin": "0x1bf2a6f08"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1bef3d878",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bef3d878",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bef3d878",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1bef3dc68",
+          "origin": "0x1bf2a2b30"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1bef3dc74",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    },
+    {
+      "layout": "watch",
+      "enum": 5,
+      "constructor": "0x1bf14cdb8",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1bf14d000",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1bf14d000",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1bf14d000",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1bf14d014",
+          "origin": "0x1bf2a0a08"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1bf14d028",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1bf14d028",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterWidth": {
+          "value": 30,
+          "ip": "0x1bf14d028",
+          "origin": "0x1bf2c5b20"
+        },
+        "life": {
+          "value": 1.5,
+          "ip": "0x1bf14d028",
+          "origin": "0x1bf2c5b20"
+        },
+        "fgVelocity": {
+          "value": 170,
+          "ip": "0x1bf14d028",
+          "origin": "0x1bf2c5b20"
+        },
+        "fgRate": {
+          "value": 160,
+          "ip": "0x1bf14d028",
+          "origin": "0x1bf2c5b20"
+        },
+        "fgSizeMin": {
+          "value": 0.47999998927116394,
+          "ip": "0x1bf14d034",
+          "origin": "0x1bf2c0918"
+        },
+        "fgSizeMax": {
+          "value": 0.8199999928474426,
+          "ip": "0x1bf14d034",
+          "origin": "0x1bf2c0918"
+        },
+        "fgSpread": {
+          "value": 1.5,
+          "ip": "0x1bf14d054",
+          "origin": "0x1bf2a83a0"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf14d054",
+          "origin": "0x1bf2a83a0"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf14d054",
+          "origin": "0x1bf2a83a0"
+        },
+        "bgVelocity": {
+          "value": 110,
+          "ip": "0x1bf14d054",
+          "origin": "0x1bf2a83a0"
+        },
+        "bgRate": {
+          "value": 1500,
+          "ip": "0x1bf14d060",
+          "origin": "0x1bf14d05c"
+        },
+        "bgSizeMin": {
+          "value": 0.30000001192092896,
+          "ip": "0x1bf14d06c",
+          "origin": "0x1bf2a4728"
+        },
+        "bgSizeMax": {
+          "value": 0.6000000238418579,
+          "ip": "0x1bf14d06c",
+          "origin": "0x1bf2a4728"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1bf14d08c",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf14d08c",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf14d08c",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1bf14d480",
+          "origin": "0x1bf2a4830"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1bf14d48c",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    },
+    {
+      "layout": "maglev",
+      "enum": 6,
+      "constructor": "0x1beeb18cc",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1beeb1b10",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1beeb1b10",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1beeb1b10",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1beeb1b24",
+          "origin": "0x1bf2a0a08"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1beeb1b38",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1beeb1b38",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterWidth": {
+          "value": 48,
+          "ip": "0x1beeb1b38",
+          "origin": "0x1bf2a6f50"
+        },
+        "life": {
+          "value": 2.5,
+          "ip": "0x1beeb1b38",
+          "origin": "0x1bf2a6f50"
+        },
+        "fgVelocity": {
+          "value": 120,
+          "ip": "0x1beeb1b38",
+          "origin": "0x1bf2a6f50"
+        },
+        "fgRate": {
+          "value": 320,
+          "ip": "0x1beeb1b38",
+          "origin": "0x1bf2a6f50"
+        },
+        "fgSizeMin": {
+          "value": 0.23000000417232513,
+          "ip": "0x1beeb1b44",
+          "origin": "0x1bf2a6f00"
+        },
+        "fgSizeMax": {
+          "value": 0.30000001192092896,
+          "ip": "0x1beeb1b44",
+          "origin": "0x1bf2a6f00"
+        },
+        "fgSpread": {
+          "value": 1.25,
+          "ip": "0x1beeb1b64",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1beeb1b64",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1beeb1b64",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgVelocity": {
+          "value": 60,
+          "ip": "0x1beeb1b64",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgRate": {
+          "value": 3000,
+          "ip": "0x1beeb1b70",
+          "origin": "0x1beeb1b6c"
+        },
+        "bgSizeMin": {
+          "value": 0.12999999523162842,
+          "ip": "0x1beeb1b7c",
+          "origin": "0x1bf2a6f08"
+        },
+        "bgSizeMax": {
+          "value": 0.17999999225139618,
+          "ip": "0x1beeb1b7c",
+          "origin": "0x1bf2a6f08"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1beeb1b9c",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1beeb1b9c",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1beeb1b9c",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1beeb1f8c",
+          "origin": "0x1bf2a2b30"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1beeb1f98",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    },
+    {
+      "layout": "compactMin",
+      "enum": 7,
+      "constructor": "0x1bf1ba37c",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1bf1ba5c0",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1bf1ba5c0",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1bf1ba5c0",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1bf1ba5d4",
+          "origin": "0x1bf2a0a08"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1bf1ba5e8",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1bf1ba5e8",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterWidth": {
+          "value": 30,
+          "ip": "0x1bf1ba5e8",
+          "origin": "0x1bf2caa10"
+        },
+        "life": {
+          "value": 2.5,
+          "ip": "0x1bf1ba5e8",
+          "origin": "0x1bf2caa10"
+        },
+        "fgVelocity": {
+          "value": 112,
+          "ip": "0x1bf1ba5e8",
+          "origin": "0x1bf2caa10"
+        },
+        "fgRate": {
+          "value": 250,
+          "ip": "0x1bf1ba5e8",
+          "origin": "0x1bf2caa10"
+        },
+        "fgSizeMin": {
+          "value": 0.3499999940395355,
+          "ip": "0x1bf1ba5f4",
+          "origin": "0x1bf2ca9e0"
+        },
+        "fgSizeMax": {
+          "value": 0.4300000071525574,
+          "ip": "0x1bf1ba5f4",
+          "origin": "0x1bf2ca9e0"
+        },
+        "fgSpread": {
+          "value": 1.25,
+          "ip": "0x1bf1ba614",
+          "origin": "0x1bf2caa20"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf1ba614",
+          "origin": "0x1bf2caa20"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf1ba614",
+          "origin": "0x1bf2caa20"
+        },
+        "bgVelocity": {
+          "value": 68,
+          "ip": "0x1bf1ba614",
+          "origin": "0x1bf2caa20"
+        },
+        "bgRate": {
+          "value": 1800,
+          "ip": "0x1bf1ba61c",
+          "origin": "0x1bf1ba618"
+        },
+        "bgSizeMin": {
+          "value": 0.20000000298023224,
+          "ip": "0x1bf1ba628",
+          "origin": "0x1bf2c3ac0"
+        },
+        "bgSizeMax": {
+          "value": 0.25999999046325684,
+          "ip": "0x1bf1ba628",
+          "origin": "0x1bf2c3ac0"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1bf1ba648",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf1ba648",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf1ba648",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1bf1baa3c",
+          "origin": "0x1bf2a2b30"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1bf1baa48",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    },
+    {
+      "layout": "compactMax",
+      "enum": 8,
+      "constructor": "0x1bf23e094",
+      "values": {
+        "cameraX": {
+          "value": 0,
+          "ip": "0x1bf23e2d8",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraY": {
+          "value": 0,
+          "ip": "0x1bf23e2d8",
+          "origin": "0x1bf2a0440"
+        },
+        "cameraZ": {
+          "value": 100,
+          "ip": "0x1bf23e2d8",
+          "origin": "0x1bf2a0440"
+        },
+        "focal": {
+          "value": 50,
+          "ip": "0x1bf23e2ec",
+          "origin": "0x1bf23e2dc/0x1bf23e2e0: immediate 0x42480000 duplicated into v0.2s"
+        },
+        "fallAngle": {
+          "value": 0,
+          "ip": "0x1bf23e300",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterOffset": {
+          "value": -35,
+          "ip": "0x1bf23e300",
+          "origin": "0x1bf2a2a60"
+        },
+        "emitterWidth": {
+          "value": 30,
+          "ip": "0x1bf23e300",
+          "origin": "0x1bf2ad820"
+        },
+        "life": {
+          "value": 2.5,
+          "ip": "0x1bf23e300",
+          "origin": "0x1bf2ad820"
+        },
+        "fgVelocity": {
+          "value": 120,
+          "ip": "0x1bf23e300",
+          "origin": "0x1bf2ad820"
+        },
+        "fgRate": {
+          "value": 320,
+          "ip": "0x1bf23e300",
+          "origin": "0x1bf2ad820"
+        },
+        "fgSizeMin": {
+          "value": 0.25999999046325684,
+          "ip": "0x1bf23e30c",
+          "origin": "0x1bf2d3d60"
+        },
+        "fgSizeMax": {
+          "value": 0.46000000834465027,
+          "ip": "0x1bf23e30c",
+          "origin": "0x1bf2d3d60"
+        },
+        "fgSpread": {
+          "value": 1.25,
+          "ip": "0x1bf23e32c",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf23e32c",
+          "origin": "0x1bf2a6f70"
+        },
+        "fgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf23e32c",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgVelocity": {
+          "value": 60,
+          "ip": "0x1bf23e32c",
+          "origin": "0x1bf2a6f70"
+        },
+        "bgRate": {
+          "value": 2800,
+          "ip": "0x1bf23e334",
+          "origin": "0x1bf23e330"
+        },
+        "bgSizeMin": {
+          "value": 0.12999999523162842,
+          "ip": "0x1bf23e340",
+          "origin": "0x1bf2d3d68"
+        },
+        "bgSizeMax": {
+          "value": 0.25999999046325684,
+          "ip": "0x1bf23e340",
+          "origin": "0x1bf2d3d68"
+        },
+        "bgSpread": {
+          "value": 2,
+          "ip": "0x1bf23e360",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseIntensity": {
+          "value": 0,
+          "ip": "0x1bf23e360",
+          "origin": "0x1bf2a6f90"
+        },
+        "bgNoiseScale": {
+          "value": 0,
+          "ip": "0x1bf23e360",
+          "origin": "0x1bf2a6f90"
+        },
+        "blowingSpeed": {
+          "value": 0,
+          "ip": "0x1bf23e758",
+          "origin": "0x1bf2a2b30"
+        },
+        "blowingAmount": {
+          "value": 0,
+          "ip": "0x1bf23e764",
+          "origin": "0x1bf2873c8"
+        }
+      }
+    }
+  ],
+  "compactLighting": {
+    "constructor": "0x1bef14b9c",
+    "stride": 1216,
+    "fieldOffsets": {
+      "elevation": 0,
+      "isPM": 8,
+      "fgStart": 464,
+      "fgEnd": 496,
+      "bgStart": 528,
+      "bgEnd": 560
+    },
+    "rows": [
+      {
+        "i": 0,
+        "elevation": -90,
+        "isPM": 0,
+        "fgStart": [
+          0.3199999928474426,
+          0.3399997651576996,
+          0.40000003576278687,
+          0.08124256929775486
+        ],
+        "fgEnd": [
+          0.3199999928474426,
+          0.3399997651576996,
+          0.5989319682121277,
+          0.2822246849536896
+        ],
+        "bgStart": [
+          0.31499993801116943,
+          0.32374992966651917,
+          0.34999987483024597,
+          0.10446344640384726
+        ],
+        "bgEnd": [
+          0.5400000214576721,
+          0.5549999475479126,
+          0.6000000238418579,
+          0.16107342336453548
+        ]
+      },
+      {
+        "i": 1,
+        "elevation": -17.999999999999996,
+        "isPM": 0,
+        "fgStart": [
+          0.3199999928474426,
+          0.3399997651576996,
+          0.40000003576278687,
+          0.08124256929775486
+        ],
+        "fgEnd": [
+          0.3199999928474426,
+          0.3399997651576996,
+          0.5989319682121277,
+          0.2822246849536896
+        ],
+        "bgStart": [
+          0.31499993801116943,
+          0.32374992966651917,
+          0.34999987483024597,
+          0.10446344640384726
+        ],
+        "bgEnd": [
+          0.5400000214576721,
+          0.5549999475479126,
+          0.6000000238418579,
+          0.16107342336453548
+        ]
+      },
+      {
+        "i": 2,
+        "elevation": -6,
+        "isPM": 0,
+        "fgStart": [
+          0.44999992847442627,
+          0.46250027418136597,
+          0.5,
+          0.09757045083710937
+        ],
+        "fgEnd": [
+          0.6299999952316284,
+          0.6474999189376831,
+          0.699999988079071,
+          0.25999999046325684
+        ],
+        "bgStart": [
+          0.44999992847442627,
+          0.4624999165534973,
+          0.5,
+          0.11610192805528641
+        ],
+        "bgEnd": [
+          0.5400000214576721,
+          0.5549999475479126,
+          0.6000000238418579,
+          0.18338982497348266
+        ]
+      },
+      {
+        "i": 3,
+        "elevation": 33,
+        "isPM": 0,
+        "fgStart": [
+          0.6000000238418579,
+          0.637499988079071,
+          0.75,
+          0.12
+        ],
+        "fgEnd": [
+          0.8500003814697266,
+          0.887500524520874,
+          1,
+          0.34
+        ],
+        "bgStart": [
+          0.6439999938011169,
+          0.6579999923706055,
+          0.699999988079071,
+          0.1
+        ],
+        "bgEnd": [
+          0.9200000166893005,
+          0.940000057220459,
+          1,
+          0.2199999988079071
+        ]
+      },
+      {
+        "i": 4,
+        "elevation": 60,
+        "isPM": 0,
+        "fgStart": [
+          0.6800000071525574,
+          0.7536669373512268,
+          0.8500000238418579,
+          0.15
+        ],
+        "fgEnd": [
+          0.850000262260437,
+          0.915000319480896,
+          1,
+          0.36
+        ],
+        "bgStart": [
+          0.8100000023841858,
+          0.8492059707641602,
+          0.8999999761581421,
+          0.1
+        ],
+        "bgEnd": [
+          0.9000005722045898,
+          0.9466668367385864,
+          1,
+          0.28
+        ]
+      },
+      {
+        "i": 5,
+        "elevation": 60,
+        "isPM": 1,
+        "fgStart": [
+          0.6800000071525574,
+          0.7536669373512268,
+          0.8500000238418579,
+          0.15
+        ],
+        "fgEnd": [
+          0.850000262260437,
+          0.915000319480896,
+          1,
+          0.36
+        ],
+        "bgStart": [
+          0.8100000023841858,
+          0.8492059707641602,
+          0.8999999761581421,
+          0.1
+        ],
+        "bgEnd": [
+          0.9000005722045898,
+          0.9466668367385864,
+          1,
+          0.28
+        ]
+      },
+      {
+        "i": 6,
+        "elevation": 33,
+        "isPM": 1,
+        "fgStart": [
+          0.6000000238418579,
+          0.637499988079071,
+          0.75,
+          0.12
+        ],
+        "fgEnd": [
+          0.8500003814697266,
+          0.887500524520874,
+          1,
+          0.34
+        ],
+        "bgStart": [
+          0.6439999938011169,
+          0.6579999923706055,
+          0.699999988079071,
+          0.1
+        ],
+        "bgEnd": [
+          0.9200000166893005,
+          0.940000057220459,
+          1,
+          0.2199999988079071
+        ]
+      },
+      {
+        "i": 7,
+        "elevation": -6,
+        "isPM": 1,
+        "fgStart": [
+          0.44999992847442627,
+          0.46250027418136597,
+          0.5,
+          0.2
+        ],
+        "fgEnd": [
+          0.5400000214576721,
+          0.5549999475479126,
+          0.6000000238418579,
+          0.20000000298023224
+        ],
+        "bgStart": [
+          0.44999992847442627,
+          0.4624999165534973,
+          0.5,
+          0.11610192805528641
+        ],
+        "bgEnd": [
+          0.5400000214576721,
+          0.5549999475479126,
+          0.6000000238418579,
+          0.2
+        ]
+      },
+      {
+        "i": 8,
+        "elevation": -17.999999999999996,
+        "isPM": 1,
+        "fgStart": [
+          0.3199999928474426,
+          0.33999985456466675,
+          0.40000003576278687,
+          0.11999999731779099
+        ],
+        "fgEnd": [
+          0.40000003576278687,
+          0.42500007152557373,
+          0.5,
+          0.20000000298023224
+        ],
+        "bgStart": [
+          0.31499993801116943,
+          0.32374992966651917,
+          0.34999990463256836,
+          0.11
+        ],
+        "bgEnd": [
+          0.5400000214576721,
+          0.5549999475479126,
+          0.6000000238418579,
+          0.15000000596046448
+        ]
+      },
+      {
+        "i": 9,
+        "elevation": -90,
+        "isPM": 1,
+        "fgStart": [
+          0.3199999928474426,
+          0.3399997651576996,
+          0.40000003576278687,
+          0.08124256929775486
+        ],
+        "fgEnd": [
+          0.3199999928474426,
+          0.3399997651576996,
+          0.5989319682121277,
+          0.2822246849536896
+        ],
+        "bgStart": [
+          0.31499993801116943,
+          0.32374992966651917,
+          0.34999987483024597,
+          0.10446344640384726
+        ],
+        "bgEnd": [
+          0.5400000214576721,
+          0.5549999475479126,
+          0.6000000238418579,
+          0.16107342336453548
+        ]
+      }
+    ]
+  },
+  "notes": [
+    "Numeric values are source-derived, not a live-device observation.",
+    "The compact lighting table is not a substitute for other layouts lighting tables.",
+    "See README.md for the runtime-versus-authored-default distinction, wind and sway formulas, implementation sequence and verification limits."
+  ]
+}
