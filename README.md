@@ -1,3 +1,13 @@
+
+
+https://github.com/user-attachments/assets/f1910deb-bf25-4d98-8628-89ba6c394606
+
+
+
+
+
+
+
 # Implementing iOS-style regular rain
 
 A practical implementation guide based on analysis of **iOS 26.5, build 23F77, WeatherUI 1318**, its rain scene, and the VFX particle pipeline. It explains the configuration, simulation, wind, lighting, projection, and streak rendering needed to reproduce the recovered regular-rain behavior.
